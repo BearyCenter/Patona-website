@@ -48,9 +48,9 @@
                 <a href="tel:0900967526" target="_blank"><p class="text-w-500 text-s-20 text-white">© Akita Fulfillment Co.,Ltd. (c) All rights reserved.</p></a>
               </div>
               <div class="col-7 text-end">
-                <span class="text-s-20 text-white me-3" style="text-decoration: underline;">Privacy Policy</span>
-                <span class="text-s-20 text-white me-3" style="text-decoration: underline;">Terms of Service</span>
-                <span class="text-s-20 text-white me-3" style="text-decoration: underline;">Cookies Settings</span>
+                <nuxt-link to="/privacy-policy" @click.native="scrollToTop" class="footer-legal-link text-s-20 me-3">Privacy Policy</nuxt-link>
+                <nuxt-link to="/terms-of-service" @click.native="scrollToTop" class="footer-legal-link text-s-20 me-3">Terms of Service</nuxt-link>
+                <a href="#" class="footer-legal-link text-s-20 me-3">Cookies Settings</a>
               </div>
             </div>
           </div>
@@ -95,13 +95,13 @@
             </div>
             <div class="row mt-4 mb-5">
               <div class="col-4">
-                <span class="text-s-20 text-white" style="text-decoration: underline;">Privacy Policy</span>
+                <nuxt-link to="/privacy-policy" @click.native="scrollToTop" class="footer-legal-link text-s-20">Privacy Policy</nuxt-link>
               </div>
               <div class="col-4">
-                <span class="text-s-20 text-white" style="text-decoration: underline;">Terms of Service</span>
+                <nuxt-link to="/terms-of-service" @click.native="scrollToTop" class="footer-legal-link text-s-20">Terms of Service</nuxt-link>
               </div>
               <div class="col-4">
-                <span class="text-s-20 text-white" style="text-decoration: underline;">Cookies Settings</span>
+                <a href="#" class="footer-legal-link text-s-20">Cookies Settings</a>
               </div>
             </div>
           </div>
@@ -173,6 +173,16 @@ a:hover{
 .text-s-20{
   line-height: 20px;
 }
+
+.footer-legal-link {
+  color: #FFFFFF !important;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+.footer-legal-link:hover {
+  color: #FF8A4D !important;
+}
+
 /* -------------------------#Responsive------------------------ */
 
 /* Extra small devices (phones, 600px and down) */
