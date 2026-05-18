@@ -497,7 +497,7 @@ export default {
   margin-bottom: 56px;
 }
 .legal__intro p {
-  font-size: 19px;
+  font-size: 20px;
   line-height: 1.75;
   color: #0F225A;
   margin: 0 0 18px;
@@ -525,7 +525,7 @@ export default {
 }
 .legal__h3 {
   font-family: 'Heavent', 'DB Heavent Round', sans-serif;
-  font-size: 21px;
+  font-size: 22px;
   font-weight: 600;
   color: #0F225A;
   margin: 28px 0 10px;
@@ -534,7 +534,7 @@ export default {
 .legal__section > p,
 .legal__section > ul,
 .legal__section > ol {
-  font-size: 19px;
+  font-size: 20px;
   line-height: 1.75;
   color: #0F225A;
   margin: 0 0 16px;
@@ -549,7 +549,7 @@ export default {
 .legal__list li {
   position: relative;
   padding: 4px 0 4px 22px;
-  font-size: 19px;
+  font-size: 20px;
   line-height: 1.7;
   color: #0F225A;
 }
@@ -586,13 +586,13 @@ export default {
 }
 .legal__defs dt {
   font-family: 'Heavent', 'DB Heavent Round', sans-serif;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 600;
   color: #0F225A;
   margin: 0;
 }
 .legal__defs dd {
-  font-size: 19px;
+  font-size: 20px;
   line-height: 1.7;
   color: #0F225A;
   margin: 0;
@@ -608,7 +608,7 @@ export default {
 .legal__table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 18px;
+  font-size: 20px;
   min-width: 480px;
   background: #fff;
 }
@@ -619,7 +619,7 @@ export default {
   font-weight: 600;
   padding: 14px 20px;
   text-align: left;
-  font-size: 18px;
+  font-size: 20px;
 }
 .legal__table td {
   padding: 14px 20px;
@@ -647,7 +647,7 @@ export default {
 }
 .legal__foot .legal__divider { margin-bottom: 32px; }
 .legal__foot p {
-  font-size: 15px;
+  font-size: 18px;
   color: #6B7280;
   line-height: 1.7;
   margin: 0;
@@ -658,7 +658,6 @@ export default {
   .legal__title { font-size: 44px; line-height: 1.05; }
   .legal__title-en { font-size: 40px; }
   .legal__h2 { font-size: 28px; }
-  .legal__h3 { font-size: 20px; }
   .legal__head { margin-bottom: 44px; }
 }
 @media (max-width: 600px) {
@@ -666,12 +665,6 @@ export default {
   .legal__title-en { font-size: 34px; }
   .legal__effective { font-size: 15px; }
   .legal__h2 { font-size: 24px; }
-  .legal__h3 { font-size: 18px; }
-  .legal__intro p,
-  .legal__section > p,
-  .legal__list li,
-  .legal__defs dt,
-  .legal__defs dd { font-size: 17px; }
   .legal__divider { margin-top: 28px; }
   .legal__head { margin-bottom: 36px; }
   .legal__section { margin-bottom: 36px; }
